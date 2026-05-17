@@ -1,7 +1,7 @@
-import { Redirect } from 'expo-router';
+import { Redirect } from "expo-router";
 
-const Index = () => {
+const App = () => {
   return <Redirect href="/home" />;
 };
 
-export default Index;
+export default App;
